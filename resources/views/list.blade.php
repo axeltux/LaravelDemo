@@ -27,7 +27,7 @@
                      <th>Nombre</th>
                      <th>Email</th>
                      <th>Creado el</th>
-                     <th>Action</th>
+                     <th>Acciones</th>
                   </tr>
                </thead>
             </table>
@@ -59,8 +59,8 @@
                                 </div>
                             </div>
                             <div class="col-sm-offset-2 col-sm-10">
-                             <button type="submit" class="btn btn-primary" id="btn-save" value="create">Guardar
-                             </button>
+                                <button type="submit" class="btn btn-primary" id="btn-save" value="create">Guardar</button>
+                                <input id="btn-cancela" type="submit" class="btn btn-warning" value="Cancelar" data-dismiss="modal">
                             </div>
                         </form>
                     </div>
